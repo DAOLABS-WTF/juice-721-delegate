@@ -6,6 +6,7 @@ import { TASK_COMPILE_SOLIDITY_GET_SOURCE_PATHS } from 'hardhat/builtin-tasks/ta
 
 // import '@ethereum-waffle/chai';
 // import '@nomicfoundation/hardhat-chai-matchers';
+import "@nomiclabs/hardhat-ethers";
 import '@nomiclabs/hardhat-etherscan';
 // import '@nomiclabs/hardhat-waffle';
 // import '@openzeppelin/hardhat-upgrades';
