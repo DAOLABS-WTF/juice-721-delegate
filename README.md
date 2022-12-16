@@ -13,7 +13,7 @@ Each tier has the following optional properties:
 - a contribution floor amount.
 - a max quantity.
 - a number of voting units to associate with each unit within the tier.
-- a reserved rate, allowing a proprtion of units within the tier to be minted to a pre-programmed beneficiary.
+- a reserved rate, allowing a proportion of units within the tier to be minted to a pre-programmed beneficiary.
 - URI, overridable by a URI resolver that can return dynamic values for each unit with the tier.
 - a lock date, before which the tier must remain accessible.
 - the ability for the contract's owner to mint tokens from the tier on demand.
@@ -47,10 +47,9 @@ All `JBTiered721Delegate`'s use a generic `JBTiered721DelegateStore` to store it
 
 ## Deploy
 
-The deployer copies the data of a pre-existing cononical version of the 721 contracts, which can be either GlobalGovernance, TierGovernance, or no governance. This was done to keep the deployer contract size small enough to be deployable, without the extra cost of the delegatecalls associated with a proxy pattern. 
+The deployer copies the data of a pre-existing cononical version of the 721 contracts, which can be either GlobalGovernance, TierGovernance, or no governance. This was done to keep the deployer contract size small enough to be deployable, without the extra cost of the delegatecalls associated with a proxy pattern.
 
-
-# Install
+## Install
 
 Quick all-in-one command:
 
@@ -62,35 +61,35 @@ To get set up:
 
 1. Install [Foundry](https://github.com/gakonst/foundry).
 
-```bash
-curl -L https://foundry.paradigm.xyz | sh
-```
+    ```bash
+    curl -L https://foundry.paradigm.xyz | sh
+    ```
 
 2. Install external lib(s)
 
-```bash
-git submodule update --init --recursive --force && yarn install
-```
+    ```bash
+    git submodule update --init --recursive --force && yarn install
+    ```
 
-then run
+    then run
 
-```bash
-forge update
-```
+    ```bash
+    forge update
+    ```
 
 3. Run tests:
 
-```bash
-forge test
-```
+    ```bash
+    forge test
+    ```
 
 4. Update Foundry periodically:
 
-```bash
-foundryup
-```
+    ```bash
+    foundryup
+    ```
 
-#### Setup
+## Setup
 
 Configure the .env variables, and add a mnemonic.txt file with the mnemonic of the deployer wallet. The sender address in the .env must correspond to the mnemonic account.
 

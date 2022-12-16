@@ -1,8 +1,11 @@
+artifacts/
+cache/
+lib/forge-std/
+node_modules/
+out/
+typechain-types/
+
+.DS_Store
 .env
 mnemonic.txt
 pk.txt
-.DS_Store
-cache
-node_modules
-out/
-lib/forge-std/
