@@ -29,7 +29,7 @@ async function main() {
         jbTiered721DelegateAddress
     ], deployer, 'JBTiered721DelegateDeployer', deploymentLogPath);
 
-    const jbTiered721DelegateDeployerAddress = getContractRecord('JBTiered721Delegate', deploymentLogPath).address;
+    const jbTiered721DelegateDeployerAddress = getContractRecord('JBTiered721DelegateDeployer', deploymentLogPath).address;
     const jbControllerAddress = getContractRecord('JBController', `${parentDir}/deployments/${hre.network.name}/platform.json`).address;
     const jbOperatorStoreAddress = getContractRecord('JBOperatorStore', `${parentDir}/deployments/${hre.network.name}/platform.json`).address;
     await deployRecordContract('JBTiered721DelegateProjectDeployer', [
