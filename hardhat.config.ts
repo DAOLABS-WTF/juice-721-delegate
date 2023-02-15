@@ -4,11 +4,11 @@ import fs from 'fs';
 
 import { TASK_COMPILE_SOLIDITY_GET_SOURCE_PATHS } from 'hardhat/builtin-tasks/task-names';
 
-// import '@ethereum-waffle/chai';
-// import '@nomicfoundation/hardhat-chai-matchers';
+import '@ethereum-waffle/chai';
+import '@nomicfoundation/hardhat-chai-matchers';
 import "@nomiclabs/hardhat-ethers";
 import '@nomiclabs/hardhat-etherscan';
-// import '@nomiclabs/hardhat-waffle';
+import '@nomiclabs/hardhat-waffle';
 // import '@openzeppelin/hardhat-upgrades';
 import '@typechain/hardhat';
 import 'hardhat-contract-sizer';
@@ -56,7 +56,7 @@ module.exports = {
             // },
             forking: {
                 url: 'https://goerli.infura.io/v3/' + infuraId,
-                blockNumber: 7863000,
+                blockNumber: 8497054,
                 enabled: true
             },
             allowUnlimitedContractSize: true,
