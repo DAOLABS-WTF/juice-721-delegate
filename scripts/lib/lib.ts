@@ -32,6 +32,7 @@ async function deployContract(contractName: string, constructorArgs: any[], depl
 
         const contractFactory = await hre.ethers.getContractFactory(contractName, { libraries, signer: deployer });
         const contractInstance = await contractFactory.connect(deployer).deploy(...constructorArgs);
+        logger.info(`transaction hash ${contractInstance.deployTransaction.hash}, waiting for confirmation...`);
         await contractInstance.deployed();
 
         logger.info(`deployed to ${contractInstance.address} in ${contractInstance.deployTransaction.hash}`);
