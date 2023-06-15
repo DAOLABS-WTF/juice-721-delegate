@@ -1,7 +1,7 @@
 {
     "goerli": {
         "JBTiered721Delegate": {
-            "address": "0x00DA32A5dD896B9752A2f2cDf1763A4A196a7cb7",
+            "address": "0x65A50610B1981Bb4D5a641dD664ce494F064B0c5",
             "args": [],
             "abi": [
                 {
@@ -1545,7 +1545,7 @@
             "type": "JBTiered721Delegate"
         },
         "JB721GlobalGovernance": {
-            "address": "0x4c94eD006e4332Fa46C79542A2d652c06Dca9Ce4",
+            "address": "0xe8E1c8cC0401a95B5A0e7a64119797E9E60b5556",
             "args": [],
             "abi": [
                 {
@@ -3232,7 +3232,7 @@
             "type": "JB721GlobalGovernance"
         },
         "JB721TieredGovernance": {
-            "address": "0xD6b2Dcf2e5fbe42356b81514905Ba1ceB41C0233",
+            "address": "0x3EA5714eaeA7fF4d0595D21617d84851B20A9e25",
             "args": [],
             "abi": [
                 {
@@ -5017,7 +5017,7 @@
             "type": "JB721TieredGovernance"
         },
         "JBTiered721DelegateStore": {
-            "address": "0xf7d2840e39E04637696ba36Fe66688eDe7AfE334",
+            "address": "0xd45a57AE875A97a62beBB005f3c4747ABb4671ed",
             "args": [],
             "abi": [
                 {
@@ -6079,11 +6079,11 @@
             "type": "JBTiered721DelegateStore"
         },
         "JBTiered721DelegateDeployer": {
-            "address": "0xAAeaff202EebD87d109e923D9CEd6C9b3DA0401f",
+            "address": "0xb43927836F28A7d424C727145Eb7f58Bb649E1B0",
             "args": [
-                "0x4c94eD006e4332Fa46C79542A2d652c06Dca9Ce4",
-                "0xD6b2Dcf2e5fbe42356b81514905Ba1ceB41C0233",
-                "0x00DA32A5dD896B9752A2f2cDf1763A4A196a7cb7"
+                "0xe8E1c8cC0401a95B5A0e7a64119797E9E60b5556",
+                "0x3EA5714eaeA7fF4d0595D21617d84851B20A9e25",
+                "0x65A50610B1981Bb4D5a641dD664ce494F064B0c5"
             ],
             "abi": [
                 {
@@ -6325,11 +6325,11 @@
             "type": "JBTiered721DelegateDeployer"
         },
         "JBTiered721DelegateProjectDeployer": {
-            "address": "0xE8aE3fC72887523c7f6afe851200f6E1764d1820",
+            "address": "0x72De19Aa41BD73711B8056A494CD5B2B145088D0",
             "args": [
-                "0x80Fffc8060BDcA71838BCd81aD00A4a2B0e77480",
-                "0xAAeaff202EebD87d109e923D9CEd6C9b3DA0401f",
-                "0x94c1BDeD9dF433a11a3EEFE02a896fA917B01606"
+                "0x088706289116E78b0247C9E3d356434952d5E48B",
+                "0xb43927836F28A7d424C727145Eb7f58Bb649E1B0",
+                "0xF52F40FC92DF4bB0B8765b32d93388c8dB4A8a97"
             ],
             "abi": [
                 {
@@ -7449,7 +7449,7 @@
                     ]
                 }
             ],
-            "verified": false,
+            "verified": true,
             "type": "JBTiered721DelegateProjectDeployer"
         }
     },

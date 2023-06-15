@@ -19,3 +19,47 @@
 2023-06-14T14:41:43.005Z|info|transaction hash 0x5cbb86ade5c44378d8db73bffdd42546b5134eed548bf09ccc76adc7911cea11, waiting for confirmation...
 2023-06-14T14:41:49.146Z|info|deployed to 0xE8aE3fC72887523c7f6afe851200f6E1764d1820 in 0x5cbb86ade5c44378d8db73bffdd42546b5134eed548bf09ccc76adc7911cea11
 2023-06-14T14:41:49.152Z|info|deployment complete
+2023-06-15T09:10:40.209Z|info|deploying DAOLABS Juicebox v3, nft rewards, fork to goerli
+2023-06-15T09:10:40.508Z|info|connected as 0xbeeF69b41A166A8696478F117cE92DbaC35250F4
+2023-06-15T09:10:40.509Z|info|deploying JBTiered721Delegate
+2023-06-15T09:10:50.668Z|info|transaction hash 0xdbd5f23d575ffccbc9124cb49b640ff616f1d4d24d25fde665da863daa87ba46, waiting for confirmation...
+2023-06-15T09:11:05.188Z|info|deployed to 0x65A50610B1981Bb4D5a641dD664ce494F064B0c5 in 0xdbd5f23d575ffccbc9124cb49b640ff616f1d4d24d25fde665da863daa87ba46
+2023-06-15T09:11:05.192Z|info|deploying JB721GlobalGovernance
+2023-06-15T09:11:08.789Z|info|transaction hash 0xdacd462c7f5f7ad641be8d2c0f1cf228938c39cef2911adf4a6e75d765686952, waiting for confirmation...
+2023-06-15T09:11:14.616Z|info|deployed to 0xe8E1c8cC0401a95B5A0e7a64119797E9E60b5556 in 0xdacd462c7f5f7ad641be8d2c0f1cf228938c39cef2911adf4a6e75d765686952
+2023-06-15T09:11:14.622Z|info|deploying JB721TieredGovernance
+2023-06-15T09:11:18.884Z|info|transaction hash 0xab6ecc551bb3d881887980b34f7fa4bd0ef7cf4bb1178bcd672477098846d63e, waiting for confirmation...
+2023-06-15T09:11:29.316Z|info|deployed to 0x3EA5714eaeA7fF4d0595D21617d84851B20A9e25 in 0xab6ecc551bb3d881887980b34f7fa4bd0ef7cf4bb1178bcd672477098846d63e
+2023-06-15T09:11:29.323Z|info|deploying JBTiered721DelegateStore
+2023-06-15T09:11:32.852Z|info|transaction hash 0x96dd8b90740cdb50cbc34ed3dbadcba3183444068493628bc3a1d1dc38de8238, waiting for confirmation...
+2023-06-15T09:11:50.455Z|info|deployed to 0xd45a57AE875A97a62beBB005f3c4747ABb4671ed in 0x96dd8b90740cdb50cbc34ed3dbadcba3183444068493628bc3a1d1dc38de8238
+2023-06-15T09:11:50.467Z|info|deploying JBTiered721DelegateDeployer with args: '0xe8E1c8cC0401a95B5A0e7a64119797E9E60b5556,0x3EA5714eaeA7fF4d0595D21617d84851B20A9e25,0x65A50610B1981Bb4D5a641dD664ce494F064B0c5'
+2023-06-15T09:11:55.142Z|info|transaction hash 0x9f26b8fa7bd5128812fdd984163dafaa39b80f2c700ab2b9d578173ac22f3b7a, waiting for confirmation...
+2023-06-15T09:12:12.981Z|info|deployed to 0xb43927836F28A7d424C727145Eb7f58Bb649E1B0 in 0x9f26b8fa7bd5128812fdd984163dafaa39b80f2c700ab2b9d578173ac22f3b7a
+2023-06-15T09:12:12.996Z|info|deploying JBTiered721DelegateProjectDeployer with args: '0x088706289116E78b0247C9E3d356434952d5E48B,0xb43927836F28A7d424C727145Eb7f58Bb649E1B0,0xF52F40FC92DF4bB0B8765b32d93388c8dB4A8a97'
+2023-06-15T09:12:17.080Z|info|transaction hash 0xa993f2fcb4cd94958308e730e5def0c311f2deddd0dc7e9289d65b8c3537245c, waiting for confirmation...
+2023-06-15T09:12:31.103Z|info|deployed to 0x72De19Aa41BD73711B8056A494CD5B2B145088D0 in 0xa993f2fcb4cd94958308e730e5def0c311f2deddd0dc7e9289d65b8c3537245c
+2023-06-15T09:12:31.107Z|info|deployment complete
+2023-06-15T10:23:40.201Z|info|verifying JBTiered721Delegate on goerli at 0x65A50610B1981Bb4D5a641dD664ce494F064B0c5 with Etherscan
+2023-06-15T10:24:49.786Z|error|failed to verify JBTiered721Delegate with Etherscan The Etherscan API responded with a failure status.
+The verification may still succeed but should be checked manually.
+Reason: Already Verified
+2023-06-15T10:24:49.794Z|info|verifying JB721GlobalGovernance on goerli at 0xe8E1c8cC0401a95B5A0e7a64119797E9E60b5556 with Etherscan
+2023-06-15T10:25:41.248Z|error|failed to verify JB721GlobalGovernance with Etherscan The Etherscan API responded with a failure status.
+The verification may still succeed but should be checked manually.
+Reason: Already Verified
+2023-06-15T10:25:41.254Z|info|verifying JB721TieredGovernance on goerli at 0x3EA5714eaeA7fF4d0595D21617d84851B20A9e25 with Etherscan
+2023-06-15T10:27:02.898Z|error|failed to verify JB721TieredGovernance with Etherscan The Etherscan API responded with a failure status.
+The verification may still succeed but should be checked manually.
+Reason: Already Verified
+2023-06-15T10:27:02.904Z|info|verifying JBTiered721DelegateStore on goerli at 0xd45a57AE875A97a62beBB005f3c4747ABb4671ed with Etherscan
+2023-06-15T10:27:43.171Z|error|failed to verify JBTiered721DelegateStore with Etherscan The Etherscan API responded with a failure status.
+The verification may still succeed but should be checked manually.
+Reason: Already Verified
+2023-06-15T10:27:43.177Z|info|verifying JBTiered721DelegateDeployer on goerli at 0xb43927836F28A7d424C727145Eb7f58Bb649E1B0 with Etherscan
+2023-06-15T10:28:37.896Z|error|failed to verify JBTiered721DelegateDeployer with Etherscan The Etherscan API responded with a failure status.
+The verification may still succeed but should be checked manually.
+Reason: Already Verified
+2023-06-15T10:28:37.902Z|info|verifying JBTiered721DelegateProjectDeployer on goerli at 0x72De19Aa41BD73711B8056A494CD5B2B145088D0 with Etherscan
+2023-06-15T10:29:21.073Z|info|verification complete
+2023-06-15T10:29:21.077Z|info|verification complete
