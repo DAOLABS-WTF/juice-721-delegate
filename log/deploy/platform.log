@@ -42,3 +42,24 @@ Reason: Already Verified
 The verification may still succeed but should be checked manually.
 Reason: Already Verified
 2023-06-16T10:56:50.946Z|info|verification complete
+2023-06-16T13:45:57.412Z|info|deploying DAOLABS Juicebox v3, nft rewards, fork to mainnet
+2023-06-16T13:45:57.723Z|info|connected as 0x8C0Deb14F9bb6660EEdd29Da658eC256a4a095b5
+2023-06-16T13:45:57.723Z|info|deploying JBTiered721Delegate
+2023-06-16T13:46:09.201Z|info|transaction hash 0x733e6c3cda43d06b054f07ea642475f87cb6e150b791ceb8a2a5bbb799e666ec, waiting for confirmation...
+2023-06-16T13:46:18.542Z|info|deployed to 0xc23601d0950631fe5776a934b4d4D586f4f618Ab in 0x733e6c3cda43d06b054f07ea642475f87cb6e150b791ceb8a2a5bbb799e666ec
+2023-06-16T13:46:18.547Z|info|deploying JB721GlobalGovernance
+2023-06-16T13:46:23.509Z|info|transaction hash 0x94f48213bb4bbc793acab058f31ebec09278f5de32858ff39bf9f3eb93899abd, waiting for confirmation...
+2023-06-16T13:46:40.886Z|info|deployed to 0x9F329C5fcd16256Ee5d783D6FeB88D817A69d558 in 0x94f48213bb4bbc793acab058f31ebec09278f5de32858ff39bf9f3eb93899abd
+2023-06-16T13:46:40.892Z|info|deploying JB721TieredGovernance
+2023-06-16T13:46:50.687Z|info|transaction hash 0x633090c11fd0531b4f6cb6cae030d7d5efb565ca6c81ae02879843e6bf09a99c, waiting for confirmation...
+2023-06-16T13:48:49.779Z|info|deployed to 0x386E6d326FFee631FcBB9083b5f6DbAd61131408 in 0x633090c11fd0531b4f6cb6cae030d7d5efb565ca6c81ae02879843e6bf09a99c
+2023-06-16T13:48:49.785Z|info|deploying JBTiered721DelegateStore
+2023-06-16T13:48:56.662Z|info|transaction hash 0x27cb9b8341fa9accedfd6e97097f6f92801699d53dd1859772eed7c2437ceb3e, waiting for confirmation...
+2023-06-16T13:49:02.773Z|info|deployed to 0xd34D6Ac2574572933201e249B349b19187C25658 in 0x27cb9b8341fa9accedfd6e97097f6f92801699d53dd1859772eed7c2437ceb3e
+2023-06-16T14:22:33.007Z|info|deploying JBTiered721DelegateDeployer with args: '0x9F329C5fcd16256Ee5d783D6FeB88D817A69d558,0x386E6d326FFee631FcBB9083b5f6DbAd61131408,0xc23601d0950631fe5776a934b4d4D586f4f618Ab'
+2023-06-16T14:22:50.188Z|info|transaction hash 0x0f224f0034971d305e96570123492ae5fbd24aac92d790497d154c742cf8c736, waiting for confirmation...
+2023-06-16T14:22:50.862Z|info|deployed to 0x90e08301673642f7C38F3182b57Bf75A7e26CfCB in 0x0f224f0034971d305e96570123492ae5fbd24aac92d790497d154c742cf8c736
+2023-06-16T14:24:59.472Z|info|deploying JBTiered721DelegateProjectDeployer with args: '0x0956dEca4e9fbF7677d279d58FC8C297F39D0AE3,0x90e08301673642f7C38F3182b57Bf75A7e26CfCB,0x4Ad6d7b702f40e203E4aCaC94f74a0E533410D9d'
+2023-06-16T14:25:11.422Z|info|transaction hash 0xb0d0824b6f626779915e530d837152a2a07f83957d68625688e9f356f5177a1b, waiting for confirmation...
+2023-06-16T14:25:12.378Z|info|deployed to 0xC49F74af6840f55f1dcBf1D25235387F37590e10 in 0xb0d0824b6f626779915e530d837152a2a07f83957d68625688e9f356f5177a1b
+2023-06-16T14:25:12.384Z|info|deployment complete
