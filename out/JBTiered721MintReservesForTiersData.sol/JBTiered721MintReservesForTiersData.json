@@ -10,19 +10,20 @@
   },
   "ast": {
     "absolutePath": "contracts/structs/JBTiered721MintReservesForTiersData.sol",
-    "id": 29748,
+    "id": 30138,
     "exportedSymbols": {
       "JBTiered721MintReservesForTiersData": [
-        29747
+        30137
       ]
     },
     "nodeType": "SourceUnit",
     "src": "32:223:41",
     "nodes": [
       {
-        "id": 29742,
+        "id": 30131,
         "nodeType": "PragmaDirective",
         "src": "32:23:41",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -31,19 +32,26 @@
         ]
       },
       {
-        "id": 29747,
+        "id": 30137,
         "nodeType": "StructDefinition",
         "src": "173:81:41",
+        "nodes": [],
         "canonicalName": "JBTiered721MintReservesForTiersData",
+        "documentation": {
+          "id": 30132,
+          "nodeType": "StructuredDocumentation",
+          "src": "57:115:41",
+          "text": "@member tierId The ID of the tier to mint within.\n@member count The number of reserved tokens to mint. "
+        },
         "members": [
           {
             "constant": false,
-            "id": 29744,
+            "id": 30134,
             "mutability": "mutable",
             "name": "tierId",
             "nameLocation": "228:6:41",
             "nodeType": "VariableDeclaration",
-            "scope": 29747,
+            "scope": 30137,
             "src": "220:14:41",
             "stateVariable": false,
             "storageLocation": "default",
@@ -52,7 +60,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 29743,
+              "id": 30133,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "220:7:41",
@@ -65,12 +73,12 @@
           },
           {
             "constant": false,
-            "id": 29746,
+            "id": 30136,
             "mutability": "mutable",
             "name": "count",
             "nameLocation": "246:5:41",
             "nodeType": "VariableDeclaration",
-            "scope": 29747,
+            "scope": 30137,
             "src": "238:13:41",
             "stateVariable": false,
             "storageLocation": "default",
@@ -79,7 +87,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 29745,
+              "id": 30135,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "238:7:41",
@@ -93,7 +101,7 @@
         ],
         "name": "JBTiered721MintReservesForTiersData",
         "nameLocation": "180:35:41",
-        "scope": 29748,
+        "scope": 30138,
         "visibility": "public"
       }
     ],

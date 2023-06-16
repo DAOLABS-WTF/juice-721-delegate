@@ -10,19 +10,20 @@
   },
   "ast": {
     "absolutePath": "contracts/structs/JBTiered721Flags.sol",
-    "id": 29724,
+    "id": 30113,
     "exportedSymbols": {
       "JBTiered721Flags": [
-        29723
+        30112
       ]
     },
     "nodeType": "SourceUnit",
     "src": "32:576:38",
     "nodes": [
       {
-        "id": 29716,
+        "id": 30104,
         "nodeType": "PragmaDirective",
         "src": "32:23:38",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -31,19 +32,26 @@
         ]
       },
       {
-        "id": 29723,
+        "id": 30112,
         "nodeType": "StructDefinition",
         "src": "484:123:38",
+        "nodes": [],
         "canonicalName": "JBTiered721Flags",
+        "documentation": {
+          "id": 30105,
+          "nodeType": "StructuredDocumentation",
+          "src": "57:426:38",
+          "text": "@member lockReservedTokenChanges A flag indicating if reserved tokens can change over time by adding new tiers with a reserved rate.\n@member lockVotingUnitChanges A flag indicating if voting unit expectations can change over time by adding new tiers with voting units.\n@member lockManualMintingChanges A flag indicating if manual minting expectations can change over time by adding new tiers with manual minting."
+        },
         "members": [
           {
             "constant": false,
-            "id": 29718,
+            "id": 30107,
             "mutability": "mutable",
             "name": "lockReservedTokenChanges",
             "nameLocation": "517:24:38",
             "nodeType": "VariableDeclaration",
-            "scope": 29723,
+            "scope": 30112,
             "src": "512:29:38",
             "stateVariable": false,
             "storageLocation": "default",
@@ -52,7 +60,7 @@
               "typeString": "bool"
             },
             "typeName": {
-              "id": 29717,
+              "id": 30106,
               "name": "bool",
               "nodeType": "ElementaryTypeName",
               "src": "512:4:38",
@@ -65,12 +73,12 @@
           },
           {
             "constant": false,
-            "id": 29720,
+            "id": 30109,
             "mutability": "mutable",
             "name": "lockVotingUnitChanges",
             "nameLocation": "550:21:38",
             "nodeType": "VariableDeclaration",
-            "scope": 29723,
+            "scope": 30112,
             "src": "545:26:38",
             "stateVariable": false,
             "storageLocation": "default",
@@ -79,7 +87,7 @@
               "typeString": "bool"
             },
             "typeName": {
-              "id": 29719,
+              "id": 30108,
               "name": "bool",
               "nodeType": "ElementaryTypeName",
               "src": "545:4:38",
@@ -92,12 +100,12 @@
           },
           {
             "constant": false,
-            "id": 29722,
+            "id": 30111,
             "mutability": "mutable",
             "name": "lockManualMintingChanges",
             "nameLocation": "580:24:38",
             "nodeType": "VariableDeclaration",
-            "scope": 29723,
+            "scope": 30112,
             "src": "575:29:38",
             "stateVariable": false,
             "storageLocation": "default",
@@ -106,7 +114,7 @@
               "typeString": "bool"
             },
             "typeName": {
-              "id": 29721,
+              "id": 30110,
               "name": "bool",
               "nodeType": "ElementaryTypeName",
               "src": "575:4:38",
@@ -120,7 +128,7 @@
         ],
         "name": "JBTiered721Flags",
         "nameLocation": "491:16:38",
-        "scope": 29724,
+        "scope": 30113,
         "visibility": "public"
       }
     ],

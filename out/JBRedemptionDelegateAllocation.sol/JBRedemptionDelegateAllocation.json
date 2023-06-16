@@ -10,31 +10,32 @@
   },
   "ast": {
     "absolutePath": "node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBRedemptionDelegateAllocation.sol",
-    "id": 66921,
+    "id": 67327,
     "exportedSymbols": {
       "IERC165": [
-        71993
+        74511
       ],
       "IJBRedemptionDelegate": [
-        65162
+        65553
       ],
       "JBDidRedeemData": [
-        66703
+        67096
       ],
       "JBRedemptionDelegateAllocation": [
-        66920
+        67326
       ],
       "JBTokenAmount": [
-        66967
+        67375
       ]
     },
     "nodeType": "SourceUnit",
     "src": "32:297:116",
     "nodes": [
       {
-        "id": 66913,
+        "id": 67318,
         "nodeType": "PragmaDirective",
         "src": "32:23:116",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -43,55 +44,63 @@
         ]
       },
       {
-        "id": 66914,
+        "id": 67319,
         "nodeType": "ImportDirective",
         "src": "57:49:116",
+        "nodes": [],
         "absolutePath": "node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBRedemptionDelegate.sol",
         "file": "../interfaces/IJBRedemptionDelegate.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 66921,
-        "sourceUnit": 65163,
+        "scope": 67327,
+        "sourceUnit": 65554,
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "id": 66920,
+        "id": 67326,
         "nodeType": "StructDefinition",
         "src": "235:93:116",
+        "nodes": [],
         "canonicalName": "JBRedemptionDelegateAllocation",
+        "documentation": {
+          "id": 67320,
+          "nodeType": "StructuredDocumentation",
+          "src": "108:126:116",
+          "text": "@member delegate A delegate contract to use for subsequent calls.\n@member amount The amount to send to the delegate."
+        },
         "members": [
           {
             "constant": false,
-            "id": 66917,
+            "id": 67323,
             "mutability": "mutable",
             "name": "delegate",
             "nameLocation": "299:8:116",
             "nodeType": "VariableDeclaration",
-            "scope": 66920,
+            "scope": 67326,
             "src": "277:30:116",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_IJBRedemptionDelegate_$65162",
+              "typeIdentifier": "t_contract$_IJBRedemptionDelegate_$65553",
               "typeString": "contract IJBRedemptionDelegate"
             },
             "typeName": {
-              "id": 66916,
+              "id": 67322,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 66915,
+                "id": 67321,
                 "name": "IJBRedemptionDelegate",
                 "nameLocations": [
                   "277:21:116"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 65162,
+                "referencedDeclaration": 65553,
                 "src": "277:21:116"
               },
-              "referencedDeclaration": 65162,
+              "referencedDeclaration": 65553,
               "src": "277:21:116",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IJBRedemptionDelegate_$65162",
+                "typeIdentifier": "t_contract$_IJBRedemptionDelegate_$65553",
                 "typeString": "contract IJBRedemptionDelegate"
               }
             },
@@ -99,12 +108,12 @@
           },
           {
             "constant": false,
-            "id": 66919,
+            "id": 67325,
             "mutability": "mutable",
             "name": "amount",
             "nameLocation": "319:6:116",
             "nodeType": "VariableDeclaration",
-            "scope": 66920,
+            "scope": 67326,
             "src": "311:14:116",
             "stateVariable": false,
             "storageLocation": "default",
@@ -113,7 +122,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 66918,
+              "id": 67324,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "311:7:116",
@@ -127,7 +136,7 @@
         ],
         "name": "JBRedemptionDelegateAllocation",
         "nameLocation": "242:30:116",
-        "scope": 66921,
+        "scope": 67327,
         "visibility": "public"
       }
     ],

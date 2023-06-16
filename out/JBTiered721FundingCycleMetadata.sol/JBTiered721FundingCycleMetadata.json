@@ -10,19 +10,20 @@
   },
   "ast": {
     "absolutePath": "contracts/structs/JBTiered721FundingCycleMetadata.sol",
-    "id": 29408,
+    "id": 30121,
     "exportedSymbols": {
       "JBTiered721FundingCycleMetadata": [
-        29407
+        30120
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "32:387:38",
+    "src": "32:387:39",
     "nodes": [
       {
-        "id": 29402,
+        "id": 30114,
         "nodeType": "PragmaDirective",
-        "src": "32:23:38",
+        "src": "32:23:39",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -31,20 +32,27 @@
         ]
       },
       {
-        "id": 29407,
+        "id": 30120,
         "nodeType": "StructDefinition",
-        "src": "324:94:38",
+        "src": "324:94:39",
+        "nodes": [],
         "canonicalName": "JBTiered721FundingCycleMetadata",
+        "documentation": {
+          "id": 30115,
+          "nodeType": "StructuredDocumentation",
+          "src": "57:266:39",
+          "text": "@member pauseTransfers A flag indicating if the token transfer functionality should be paused during the funding cycle.\n@member pauseMintingReserves A flag indicating if voting unit expectations can change over time by adding new tiers with voting units."
+        },
         "members": [
           {
             "constant": false,
-            "id": 29404,
+            "id": 30117,
             "mutability": "mutable",
             "name": "pauseTransfers",
-            "nameLocation": "372:14:38",
+            "nameLocation": "372:14:39",
             "nodeType": "VariableDeclaration",
-            "scope": 29407,
-            "src": "367:19:38",
+            "scope": 30120,
+            "src": "367:19:39",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -52,10 +60,10 @@
               "typeString": "bool"
             },
             "typeName": {
-              "id": 29403,
+              "id": 30116,
               "name": "bool",
               "nodeType": "ElementaryTypeName",
-              "src": "367:4:38",
+              "src": "367:4:39",
               "typeDescriptions": {
                 "typeIdentifier": "t_bool",
                 "typeString": "bool"
@@ -65,13 +73,13 @@
           },
           {
             "constant": false,
-            "id": 29406,
+            "id": 30119,
             "mutability": "mutable",
             "name": "pauseMintingReserves",
-            "nameLocation": "395:20:38",
+            "nameLocation": "395:20:39",
             "nodeType": "VariableDeclaration",
-            "scope": 29407,
-            "src": "390:25:38",
+            "scope": 30120,
+            "src": "390:25:39",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -79,10 +87,10 @@
               "typeString": "bool"
             },
             "typeName": {
-              "id": 29405,
+              "id": 30118,
               "name": "bool",
               "nodeType": "ElementaryTypeName",
-              "src": "390:4:38",
+              "src": "390:4:39",
               "typeDescriptions": {
                 "typeIdentifier": "t_bool",
                 "typeString": "bool"
@@ -92,12 +100,12 @@
           }
         ],
         "name": "JBTiered721FundingCycleMetadata",
-        "nameLocation": "331:31:38",
-        "scope": 29408,
+        "nameLocation": "331:31:39",
+        "scope": 30121,
         "visibility": "public"
       }
     ],
     "license": "MIT"
   },
-  "id": 38
+  "id": 39
 }

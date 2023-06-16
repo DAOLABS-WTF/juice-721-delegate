@@ -119,13 +119,13 @@
     }
   ],
   "bytecode": {
-    "object": "0x608060405234801561001057600080fd5b5060fd8061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060875760003560e01c80638322fff211605e5780638322fff21460b2578063870bc1fd14608c578063bc063e1a14608c578063d3c4fca914608c578063deda20c21460b857600080fd5b806319a9f94114608c5780631bf6c21b1460a55780634bb970421460ab5780635d14fef81460ab575b600080fd5b633b9aca005b6040519081526020015b60405180910390f35b60026092565b6127106092565b60016092565b60405161eeee8152602001609c56fea2646970667358221220c135b1813c6ab9a704270c47d4eb8bb87f6d8b45d9b972cc937df00273bae9e364736f6c63430008100033",
+    "object": "0x608060405234801561001057600080fd5b5060fd8061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060875760003560e01c80638322fff211605e5780638322fff21460b2578063870bc1fd14608c578063bc063e1a14608c578063d3c4fca914608c578063deda20c21460b857600080fd5b806319a9f94114608c5780631bf6c21b1460a55780634bb970421460ab5780635d14fef81460ab575b600080fd5b633b9aca005b6040519081526020015b60405180910390f35b60026092565b6127106092565b60016092565b60405161eeee8152602001609c56fea26469706673582212205e3c0440abcb76c8855155e11d700b5d5f5dd82a8351cea8757b18fde8cd1d3e64736f6c63430008140033",
     "sourceMap": "294:939:15:-:0;;;;;;;;;;;;;;;;;;;",
     "linkReferences": {}
   },
   "deployedBytecode": {
-    "object": "0x6080604052348015600f57600080fd5b506004361060875760003560e01c80638322fff211605e5780638322fff21460b2578063870bc1fd14608c578063bc063e1a14608c578063d3c4fca914608c578063deda20c21460b857600080fd5b806319a9f94114608c5780631bf6c21b1460a55780634bb970421460ab5780635d14fef81460ab575b600080fd5b633b9aca005b6040519081526020015b60405180910390f35b60026092565b6127106092565b60016092565b60405161eeee8152602001609c56fea2646970667358221220c135b1813c6ab9a704270c47d4eb8bb87f6d8b45d9b972cc937df00273bae9e364736f6c63430008100033",
-    "sourceMap": "294:939:15:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1125:106;478:13:94;1125:106:15;;;160:25:149;;;148:2;133:18;1125:106:15;;;;;;;;404:81;147:1:95;404:81:15;;779:112;249:6:94;779:112:15;;319:81;112:1:95;319:81:15;;489:82;;;241:42:101;342:51:149;;330:2;315:18;489:82:15;196:203:149",
+    "object": "0x6080604052348015600f57600080fd5b506004361060875760003560e01c80638322fff211605e5780638322fff21460b2578063870bc1fd14608c578063bc063e1a14608c578063d3c4fca914608c578063deda20c21460b857600080fd5b806319a9f94114608c5780631bf6c21b1460a55780634bb970421460ab5780635d14fef81460ab575b600080fd5b633b9aca005b6040519081526020015b60405180910390f35b60026092565b6127106092565b60016092565b60405161eeee8152602001609c56fea26469706673582212205e3c0440abcb76c8855155e11d700b5d5f5dd82a8351cea8757b18fde8cd1d3e64736f6c63430008140033",
+    "sourceMap": "294:939:15:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1125:106;478:13:94;1125:106:15;;;160:25:156;;;148:2;133:18;1125:106:15;;;;;;;;404:81;147:1:95;404:81:15;;779:112;249:6:94;779:112:15;;319:81;112:1:95;319:81:15;;489:82;;;241:42:101;342:51:156;;330:2;315:18;489:82:15;196:203:156",
     "linkReferences": {}
   },
   "methodIdentifiers": {
@@ -139,30 +139,225 @@
     "SPLITS_TOTAL_PERCENT()": "d3c4fca9",
     "USD()": "1bf6c21b"
   },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"ETH\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"ETHToken\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"MAX_DISCOUNT_RATE\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"MAX_FEE\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"MAX_FEE_DISCOUNT\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"MAX_REDEMPTION_RATE\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"MAX_RESERVED_RATE\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"SPLITS_TOTAL_PERCENT\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"USD\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/forge-test/utils/AccessJBLib.sol\":\"AccessJBLib\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@jbx-protocol/=node_modules/@jbx-protocol/\",\":@openzeppelin/=node_modules/@openzeppelin/\",\":@paulrberg/=node_modules/@paulrberg/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":prb-math/=node_modules/prb-math/\"]},\"sources\":{\"contracts/forge-test/utils/AccessJBLib.sol\":{\"keccak256\":\"0xda36e747df10cd74d3c5b1410423dd2845927bf66bf41251922240d44a729bf6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3ca81dd775a90661f3ef26ced02114388cfab879cdf05787b53cefe3b6d9a778\",\"dweb:/ipfs/QmfSyu1pASER9KzWfF2S83g5ZvUj4A7PhVf2sxZ2q8JBxV\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/libraries/JBConstants.sol\":{\"keccak256\":\"0x34362846a1cd428a8bdedf4ab6857e11402f345cb87b994b2e7fb6d2474b808d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://80b423d29251e6d6cc6bd24b89474628ebcd588fbf485da714134e449e002264\",\"dweb:/ipfs/QmVBKR4eLMfJRHJLxEJJJQiYEgkoXK6kK6HyFy7mQ9Wx6d\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/libraries/JBCurrencies.sol\":{\"keccak256\":\"0x7e417ff25c173608ee4fe6d9fc3dcd5e1458c78c889af12bac47b1189a436076\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://92a96ba0dfa74f968db8d5f367c92a8c7e616c70cafab3b6d7f049e43b501e84\",\"dweb:/ipfs/QmdJHS7yVcXjTzN82LjNZp77uzYZPL3951NWit4i36pN7Q\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/libraries/JBTokens.sol\":{\"keccak256\":\"0xecf82992f7b827766aa55f16872517a646521eef414d8cc9786617ea377e5463\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4bb334faa6d2d071473bfcd7efeb5bfa068c340600c204651d59a94be4e4b147\",\"dweb:/ipfs/QmaKgSCvDNgQ6dh2gZfQ9VhkPuRCoACv8e7sd1K9VFikix\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.20+commit.a1b79de6"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "pure",
+          "type": "function",
+          "name": "ETH",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "pure",
+          "type": "function",
+          "name": "ETHToken",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "pure",
+          "type": "function",
+          "name": "MAX_DISCOUNT_RATE",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "pure",
+          "type": "function",
+          "name": "MAX_FEE",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "pure",
+          "type": "function",
+          "name": "MAX_FEE_DISCOUNT",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "pure",
+          "type": "function",
+          "name": "MAX_REDEMPTION_RATE",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "pure",
+          "type": "function",
+          "name": "MAX_RESERVED_RATE",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "pure",
+          "type": "function",
+          "name": "SPLITS_TOTAL_PERCENT",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "pure",
+          "type": "function",
+          "name": "USD",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@jbx-protocol/=node_modules/@jbx-protocol/",
+        ":@openzeppelin/=node_modules/@openzeppelin/",
+        ":@paulrberg/=node_modules/@paulrberg/",
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/",
+        ":prb-math/=node_modules/prb-math/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/forge-test/utils/AccessJBLib.sol": "AccessJBLib"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/forge-test/utils/AccessJBLib.sol": {
+        "keccak256": "0xda36e747df10cd74d3c5b1410423dd2845927bf66bf41251922240d44a729bf6",
+        "urls": [
+          "bzz-raw://3ca81dd775a90661f3ef26ced02114388cfab879cdf05787b53cefe3b6d9a778",
+          "dweb:/ipfs/QmfSyu1pASER9KzWfF2S83g5ZvUj4A7PhVf2sxZ2q8JBxV"
+        ],
+        "license": "MIT"
+      },
+      "node_modules/@jbx-protocol/juice-contracts-v3/contracts/libraries/JBConstants.sol": {
+        "keccak256": "0x34362846a1cd428a8bdedf4ab6857e11402f345cb87b994b2e7fb6d2474b808d",
+        "urls": [
+          "bzz-raw://80b423d29251e6d6cc6bd24b89474628ebcd588fbf485da714134e449e002264",
+          "dweb:/ipfs/QmVBKR4eLMfJRHJLxEJJJQiYEgkoXK6kK6HyFy7mQ9Wx6d"
+        ],
+        "license": "MIT"
+      },
+      "node_modules/@jbx-protocol/juice-contracts-v3/contracts/libraries/JBCurrencies.sol": {
+        "keccak256": "0x7e417ff25c173608ee4fe6d9fc3dcd5e1458c78c889af12bac47b1189a436076",
+        "urls": [
+          "bzz-raw://92a96ba0dfa74f968db8d5f367c92a8c7e616c70cafab3b6d7f049e43b501e84",
+          "dweb:/ipfs/QmdJHS7yVcXjTzN82LjNZp77uzYZPL3951NWit4i36pN7Q"
+        ],
+        "license": "MIT"
+      },
+      "node_modules/@jbx-protocol/juice-contracts-v3/contracts/libraries/JBTokens.sol": {
+        "keccak256": "0xecf82992f7b827766aa55f16872517a646521eef414d8cc9786617ea377e5463",
+        "urls": [
+          "bzz-raw://4bb334faa6d2d071473bfcd7efeb5bfa068c340600c204651d59a94be4e4b147",
+          "dweb:/ipfs/QmaKgSCvDNgQ6dh2gZfQ9VhkPuRCoACv8e7sd1K9VFikix"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
   "ast": {
     "absolutePath": "contracts/forge-test/utils/AccessJBLib.sol",
-    "id": 26969,
+    "id": 27294,
     "exportedSymbols": {
       "AccessJBLib": [
-        26968
+        27293
       ],
       "JBConstants": [
-        65788
+        66179
       ],
       "JBCurrencies": [
-        65797
+        66188
       ],
       "JBTokens": [
-        66653
+        67044
       ]
     },
     "nodeType": "SourceUnit",
     "src": "32:1202:15",
     "nodes": [
       {
-        "id": 26883,
+        "id": 27208,
         "nodeType": "PragmaDirective",
         "src": "32:24:15",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -171,70 +366,75 @@
         ]
       },
       {
-        "id": 26884,
+        "id": 27209,
         "nodeType": "ImportDirective",
         "src": "58:79:15",
+        "nodes": [],
         "absolutePath": "node_modules/@jbx-protocol/juice-contracts-v3/contracts/libraries/JBCurrencies.sol",
         "file": "@jbx-protocol/juice-contracts-v3/contracts/libraries/JBCurrencies.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 26969,
-        "sourceUnit": 65798,
+        "scope": 27294,
+        "sourceUnit": 66189,
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "id": 26885,
+        "id": 27210,
         "nodeType": "ImportDirective",
         "src": "138:78:15",
+        "nodes": [],
         "absolutePath": "node_modules/@jbx-protocol/juice-contracts-v3/contracts/libraries/JBConstants.sol",
         "file": "@jbx-protocol/juice-contracts-v3/contracts/libraries/JBConstants.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 26969,
-        "sourceUnit": 65789,
+        "scope": 27294,
+        "sourceUnit": 66180,
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "id": 26886,
+        "id": 27211,
         "nodeType": "ImportDirective",
         "src": "217:75:15",
+        "nodes": [],
         "absolutePath": "node_modules/@jbx-protocol/juice-contracts-v3/contracts/libraries/JBTokens.sol",
         "file": "@jbx-protocol/juice-contracts-v3/contracts/libraries/JBTokens.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 26969,
-        "sourceUnit": 66654,
+        "scope": 27294,
+        "sourceUnit": 67045,
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "id": 26968,
+        "id": 27293,
         "nodeType": "ContractDefinition",
         "src": "294:939:15",
         "nodes": [
           {
-            "id": 26895,
+            "id": 27220,
             "nodeType": "FunctionDefinition",
             "src": "319:81:15",
+            "nodes": [],
             "body": {
-              "id": 26894,
+              "id": 27219,
               "nodeType": "Block",
               "src": "366:34:15",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
                     "expression": {
-                      "id": 26891,
+                      "id": 27216,
                       "name": "JBCurrencies",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 65797,
+                      "referencedDeclaration": 66188,
                       "src": "379:12:15",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_JBCurrencies_$65797_$",
+                        "typeIdentifier": "t_type$_t_contract$_JBCurrencies_$66188_$",
                         "typeString": "type(library JBCurrencies)"
                       }
                     },
-                    "id": 26892,
+                    "id": 27217,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -242,15 +442,15 @@
                     "memberLocation": "392:3:15",
                     "memberName": "ETH",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 65793,
+                    "referencedDeclaration": 66184,
                     "src": "379:16:15",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 26890,
-                  "id": 26893,
+                  "functionReturnParameters": 27215,
+                  "id": 27218,
                   "nodeType": "Return",
                   "src": "372:23:15"
                 }
@@ -263,23 +463,23 @@
             "name": "ETH",
             "nameLocation": "328:3:15",
             "parameters": {
-              "id": 26887,
+              "id": 27212,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "331:2:15"
             },
             "returnParameters": {
-              "id": 26890,
+              "id": 27215,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 26889,
+                  "id": 27214,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 26895,
+                  "scope": 27220,
                   "src": "357:7:15",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -288,7 +488,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 26888,
+                    "id": 27213,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "357:7:15",
@@ -302,35 +502,37 @@
               ],
               "src": "356:9:15"
             },
-            "scope": 26968,
+            "scope": 27293,
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 26904,
+            "id": 27229,
             "nodeType": "FunctionDefinition",
             "src": "404:81:15",
+            "nodes": [],
             "body": {
-              "id": 26903,
+              "id": 27228,
               "nodeType": "Block",
               "src": "451:34:15",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
                     "expression": {
-                      "id": 26900,
+                      "id": 27225,
                       "name": "JBCurrencies",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 65797,
+                      "referencedDeclaration": 66188,
                       "src": "464:12:15",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_JBCurrencies_$65797_$",
+                        "typeIdentifier": "t_type$_t_contract$_JBCurrencies_$66188_$",
                         "typeString": "type(library JBCurrencies)"
                       }
                     },
-                    "id": 26901,
+                    "id": 27226,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -338,15 +540,15 @@
                     "memberLocation": "477:3:15",
                     "memberName": "USD",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 65796,
+                    "referencedDeclaration": 66187,
                     "src": "464:16:15",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 26899,
-                  "id": 26902,
+                  "functionReturnParameters": 27224,
+                  "id": 27227,
                   "nodeType": "Return",
                   "src": "457:23:15"
                 }
@@ -359,23 +561,23 @@
             "name": "USD",
             "nameLocation": "413:3:15",
             "parameters": {
-              "id": 26896,
+              "id": 27221,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "416:2:15"
             },
             "returnParameters": {
-              "id": 26899,
+              "id": 27224,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 26898,
+                  "id": 27223,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 26904,
+                  "scope": 27229,
                   "src": "442:7:15",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -384,7 +586,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 26897,
+                    "id": 27222,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "442:7:15",
@@ -398,35 +600,37 @@
               ],
               "src": "441:9:15"
             },
-            "scope": 26968,
+            "scope": 27293,
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 26913,
+            "id": 27238,
             "nodeType": "FunctionDefinition",
             "src": "489:82:15",
+            "nodes": [],
             "body": {
-              "id": 26912,
+              "id": 27237,
               "nodeType": "Block",
               "src": "541:30:15",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
                     "expression": {
-                      "id": 26909,
+                      "id": 27234,
                       "name": "JBTokens",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 66653,
+                      "referencedDeclaration": 67044,
                       "src": "554:8:15",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_JBTokens_$66653_$",
+                        "typeIdentifier": "t_type$_t_contract$_JBTokens_$67044_$",
                         "typeString": "type(library JBTokens)"
                       }
                     },
-                    "id": 26910,
+                    "id": 27235,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -434,15 +638,15 @@
                     "memberLocation": "563:3:15",
                     "memberName": "ETH",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 66652,
+                    "referencedDeclaration": 67043,
                     "src": "554:12:15",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     }
                   },
-                  "functionReturnParameters": 26908,
-                  "id": 26911,
+                  "functionReturnParameters": 27233,
+                  "id": 27236,
                   "nodeType": "Return",
                   "src": "547:19:15"
                 }
@@ -455,23 +659,23 @@
             "name": "ETHToken",
             "nameLocation": "498:8:15",
             "parameters": {
-              "id": 26905,
+              "id": 27230,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "506:2:15"
             },
             "returnParameters": {
-              "id": 26908,
+              "id": 27233,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 26907,
+                  "id": 27232,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 26913,
+                  "scope": 27238,
                   "src": "532:7:15",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -480,7 +684,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 26906,
+                    "id": 27231,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "532:7:15",
@@ -495,35 +699,37 @@
               ],
               "src": "531:9:15"
             },
-            "scope": 26968,
+            "scope": 27293,
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 26922,
+            "id": 27247,
             "nodeType": "FunctionDefinition",
             "src": "575:88:15",
+            "nodes": [],
             "body": {
-              "id": 26921,
+              "id": 27246,
               "nodeType": "Block",
               "src": "626:37:15",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
                     "expression": {
-                      "id": 26918,
+                      "id": 27243,
                       "name": "JBConstants",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 65788,
+                      "referencedDeclaration": 66179,
                       "src": "639:11:15",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_JBConstants_$65788_$",
+                        "typeIdentifier": "t_type$_t_contract$_JBConstants_$66179_$",
                         "typeString": "type(library JBConstants)"
                       }
                     },
-                    "id": 26919,
+                    "id": 27244,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -531,15 +737,15 @@
                     "memberLocation": "651:7:15",
                     "memberName": "MAX_FEE",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 65784,
+                    "referencedDeclaration": 66175,
                     "src": "639:19:15",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 26917,
-                  "id": 26920,
+                  "functionReturnParameters": 27242,
+                  "id": 27245,
                   "nodeType": "Return",
                   "src": "632:26:15"
                 }
@@ -552,23 +758,23 @@
             "name": "MAX_FEE",
             "nameLocation": "584:7:15",
             "parameters": {
-              "id": 26914,
+              "id": 27239,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "591:2:15"
             },
             "returnParameters": {
-              "id": 26917,
+              "id": 27242,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 26916,
+                  "id": 27241,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 26922,
+                  "scope": 27247,
                   "src": "617:7:15",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -577,7 +783,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 26915,
+                    "id": 27240,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "617:7:15",
@@ -591,35 +797,37 @@
               ],
               "src": "616:9:15"
             },
-            "scope": 26968,
+            "scope": 27293,
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 26931,
+            "id": 27256,
             "nodeType": "FunctionDefinition",
             "src": "667:108:15",
+            "nodes": [],
             "body": {
-              "id": 26930,
+              "id": 27255,
               "nodeType": "Block",
               "src": "728:47:15",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
                     "expression": {
-                      "id": 26927,
+                      "id": 27252,
                       "name": "JBConstants",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 65788,
+                      "referencedDeclaration": 66179,
                       "src": "741:11:15",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_JBConstants_$65788_$",
+                        "typeIdentifier": "t_type$_t_contract$_JBConstants_$66179_$",
                         "typeString": "type(library JBConstants)"
                       }
                     },
-                    "id": 26928,
+                    "id": 27253,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -627,15 +835,15 @@
                     "memberLocation": "753:17:15",
                     "memberName": "MAX_RESERVED_RATE",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 65772,
+                    "referencedDeclaration": 66163,
                     "src": "741:29:15",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 26926,
-                  "id": 26929,
+                  "functionReturnParameters": 27251,
+                  "id": 27254,
                   "nodeType": "Return",
                   "src": "734:36:15"
                 }
@@ -648,23 +856,23 @@
             "name": "MAX_RESERVED_RATE",
             "nameLocation": "676:17:15",
             "parameters": {
-              "id": 26923,
+              "id": 27248,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "693:2:15"
             },
             "returnParameters": {
-              "id": 26926,
+              "id": 27251,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 26925,
+                  "id": 27250,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 26931,
+                  "scope": 27256,
                   "src": "719:7:15",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -673,7 +881,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 26924,
+                    "id": 27249,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "719:7:15",
@@ -687,35 +895,37 @@
               ],
               "src": "718:9:15"
             },
-            "scope": 26968,
+            "scope": 27293,
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 26940,
+            "id": 27265,
             "nodeType": "FunctionDefinition",
             "src": "779:112:15",
+            "nodes": [],
             "body": {
-              "id": 26939,
+              "id": 27264,
               "nodeType": "Block",
               "src": "842:49:15",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
                     "expression": {
-                      "id": 26936,
+                      "id": 27261,
                       "name": "JBConstants",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 65788,
+                      "referencedDeclaration": 66179,
                       "src": "855:11:15",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_JBConstants_$65788_$",
+                        "typeIdentifier": "t_type$_t_contract$_JBConstants_$66179_$",
                         "typeString": "type(library JBConstants)"
                       }
                     },
-                    "id": 26937,
+                    "id": 27262,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -723,15 +933,15 @@
                     "memberLocation": "867:19:15",
                     "memberName": "MAX_REDEMPTION_RATE",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 65775,
+                    "referencedDeclaration": 66166,
                     "src": "855:31:15",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 26935,
-                  "id": 26938,
+                  "functionReturnParameters": 27260,
+                  "id": 27263,
                   "nodeType": "Return",
                   "src": "848:38:15"
                 }
@@ -744,23 +954,23 @@
             "name": "MAX_REDEMPTION_RATE",
             "nameLocation": "788:19:15",
             "parameters": {
-              "id": 26932,
+              "id": 27257,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "807:2:15"
             },
             "returnParameters": {
-              "id": 26935,
+              "id": 27260,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 26934,
+                  "id": 27259,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 26940,
+                  "scope": 27265,
                   "src": "833:7:15",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -769,7 +979,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 26933,
+                    "id": 27258,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "833:7:15",
@@ -783,35 +993,37 @@
               ],
               "src": "832:9:15"
             },
-            "scope": 26968,
+            "scope": 27293,
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 26949,
+            "id": 27274,
             "nodeType": "FunctionDefinition",
             "src": "895:108:15",
+            "nodes": [],
             "body": {
-              "id": 26948,
+              "id": 27273,
               "nodeType": "Block",
               "src": "956:47:15",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
                     "expression": {
-                      "id": 26945,
+                      "id": 27270,
                       "name": "JBConstants",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 65788,
+                      "referencedDeclaration": 66179,
                       "src": "969:11:15",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_JBConstants_$65788_$",
+                        "typeIdentifier": "t_type$_t_contract$_JBConstants_$66179_$",
                         "typeString": "type(library JBConstants)"
                       }
                     },
-                    "id": 26946,
+                    "id": 27271,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -819,15 +1031,15 @@
                     "memberLocation": "981:17:15",
                     "memberName": "MAX_DISCOUNT_RATE",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 65778,
+                    "referencedDeclaration": 66169,
                     "src": "969:29:15",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 26944,
-                  "id": 26947,
+                  "functionReturnParameters": 27269,
+                  "id": 27272,
                   "nodeType": "Return",
                   "src": "962:36:15"
                 }
@@ -840,23 +1052,23 @@
             "name": "MAX_DISCOUNT_RATE",
             "nameLocation": "904:17:15",
             "parameters": {
-              "id": 26941,
+              "id": 27266,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "921:2:15"
             },
             "returnParameters": {
-              "id": 26944,
+              "id": 27269,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 26943,
+                  "id": 27268,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 26949,
+                  "scope": 27274,
                   "src": "947:7:15",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -865,7 +1077,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 26942,
+                    "id": 27267,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "947:7:15",
@@ -879,35 +1091,37 @@
               ],
               "src": "946:9:15"
             },
-            "scope": 26968,
+            "scope": 27293,
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 26958,
+            "id": 27283,
             "nodeType": "FunctionDefinition",
             "src": "1007:114:15",
+            "nodes": [],
             "body": {
-              "id": 26957,
+              "id": 27282,
               "nodeType": "Block",
               "src": "1071:50:15",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
                     "expression": {
-                      "id": 26954,
+                      "id": 27279,
                       "name": "JBConstants",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 65788,
+                      "referencedDeclaration": 66179,
                       "src": "1084:11:15",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_JBConstants_$65788_$",
+                        "typeIdentifier": "t_type$_t_contract$_JBConstants_$66179_$",
                         "typeString": "type(library JBConstants)"
                       }
                     },
-                    "id": 26955,
+                    "id": 27280,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -915,15 +1129,15 @@
                     "memberLocation": "1096:20:15",
                     "memberName": "SPLITS_TOTAL_PERCENT",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 65781,
+                    "referencedDeclaration": 66172,
                     "src": "1084:32:15",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 26953,
-                  "id": 26956,
+                  "functionReturnParameters": 27278,
+                  "id": 27281,
                   "nodeType": "Return",
                   "src": "1077:39:15"
                 }
@@ -936,23 +1150,23 @@
             "name": "SPLITS_TOTAL_PERCENT",
             "nameLocation": "1016:20:15",
             "parameters": {
-              "id": 26950,
+              "id": 27275,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1036:2:15"
             },
             "returnParameters": {
-              "id": 26953,
+              "id": 27278,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 26952,
+                  "id": 27277,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 26958,
+                  "scope": 27283,
                   "src": "1062:7:15",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -961,7 +1175,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 26951,
+                    "id": 27276,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1062:7:15",
@@ -975,35 +1189,37 @@
               ],
               "src": "1061:9:15"
             },
-            "scope": 26968,
+            "scope": 27293,
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 26967,
+            "id": 27292,
             "nodeType": "FunctionDefinition",
             "src": "1125:106:15",
+            "nodes": [],
             "body": {
-              "id": 26966,
+              "id": 27291,
               "nodeType": "Block",
               "src": "1185:46:15",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
                     "expression": {
-                      "id": 26963,
+                      "id": 27288,
                       "name": "JBConstants",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 65788,
+                      "referencedDeclaration": 66179,
                       "src": "1198:11:15",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_JBConstants_$65788_$",
+                        "typeIdentifier": "t_type$_t_contract$_JBConstants_$66179_$",
                         "typeString": "type(library JBConstants)"
                       }
                     },
-                    "id": 26964,
+                    "id": 27289,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -1011,15 +1227,15 @@
                     "memberLocation": "1210:16:15",
                     "memberName": "MAX_FEE_DISCOUNT",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 65787,
+                    "referencedDeclaration": 66178,
                     "src": "1198:28:15",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 26962,
-                  "id": 26965,
+                  "functionReturnParameters": 27287,
+                  "id": 27290,
                   "nodeType": "Return",
                   "src": "1191:35:15"
                 }
@@ -1032,23 +1248,23 @@
             "name": "MAX_FEE_DISCOUNT",
             "nameLocation": "1134:16:15",
             "parameters": {
-              "id": 26959,
+              "id": 27284,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1150:2:15"
             },
             "returnParameters": {
-              "id": 26962,
+              "id": 27287,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 26961,
+                  "id": 27286,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 26967,
+                  "scope": 27292,
                   "src": "1176:7:15",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1057,7 +1273,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 26960,
+                    "id": 27285,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1176:7:15",
@@ -1071,7 +1287,7 @@
               ],
               "src": "1175:9:15"
             },
-            "scope": 26968,
+            "scope": 27293,
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "external"
@@ -1084,12 +1300,13 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "linearizedBaseContracts": [
-          26968
+          27293
         ],
         "name": "AccessJBLib",
         "nameLocation": "303:11:15",
-        "scope": 26969,
-        "usedErrors": []
+        "scope": 27294,
+        "usedErrors": [],
+        "usedEvents": []
       }
     ],
     "license": "MIT"

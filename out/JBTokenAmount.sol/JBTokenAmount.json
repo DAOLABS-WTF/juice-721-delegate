@@ -10,19 +10,20 @@
   },
   "ast": {
     "absolutePath": "node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBTokenAmount.sol",
-    "id": 66968,
+    "id": 67376,
     "exportedSymbols": {
       "JBTokenAmount": [
-        66967
+        67375
       ]
     },
     "nodeType": "SourceUnit",
     "src": "32:399:119",
     "nodes": [
       {
-        "id": 66958,
+        "id": 67366,
         "nodeType": "PragmaDirective",
         "src": "32:23:119",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -31,19 +32,20 @@
         ]
       },
       {
-        "id": 66967,
+        "id": 67375,
         "nodeType": "StructDefinition",
         "src": "332:98:119",
+        "nodes": [],
         "canonicalName": "JBTokenAmount",
         "members": [
           {
             "constant": false,
-            "id": 66960,
+            "id": 67368,
             "mutability": "mutable",
             "name": "token",
             "nameLocation": "365:5:119",
             "nodeType": "VariableDeclaration",
-            "scope": 66967,
+            "scope": 67375,
             "src": "357:13:119",
             "stateVariable": false,
             "storageLocation": "default",
@@ -52,7 +54,7 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 66959,
+              "id": 67367,
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "357:7:119",
@@ -66,12 +68,12 @@
           },
           {
             "constant": false,
-            "id": 66962,
+            "id": 67370,
             "mutability": "mutable",
             "name": "value",
             "nameLocation": "382:5:119",
             "nodeType": "VariableDeclaration",
-            "scope": 66967,
+            "scope": 67375,
             "src": "374:13:119",
             "stateVariable": false,
             "storageLocation": "default",
@@ -80,7 +82,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 66961,
+              "id": 67369,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "374:7:119",
@@ -93,12 +95,12 @@
           },
           {
             "constant": false,
-            "id": 66964,
+            "id": 67372,
             "mutability": "mutable",
             "name": "decimals",
             "nameLocation": "399:8:119",
             "nodeType": "VariableDeclaration",
-            "scope": 66967,
+            "scope": 67375,
             "src": "391:16:119",
             "stateVariable": false,
             "storageLocation": "default",
@@ -107,7 +109,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 66963,
+              "id": 67371,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "391:7:119",
@@ -120,12 +122,12 @@
           },
           {
             "constant": false,
-            "id": 66966,
+            "id": 67374,
             "mutability": "mutable",
             "name": "currency",
             "nameLocation": "419:8:119",
             "nodeType": "VariableDeclaration",
-            "scope": 66967,
+            "scope": 67375,
             "src": "411:16:119",
             "stateVariable": false,
             "storageLocation": "default",
@@ -134,7 +136,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 66965,
+              "id": 67373,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "411:7:119",
@@ -148,7 +150,7 @@
         ],
         "name": "JBTokenAmount",
         "nameLocation": "339:13:119",
-        "scope": 66968,
+        "scope": 67376,
         "visibility": "public"
       }
     ],

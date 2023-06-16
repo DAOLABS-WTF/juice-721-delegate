@@ -10,19 +10,20 @@
   },
   "ast": {
     "absolutePath": "node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBOperatorData.sol",
-    "id": 66838,
+    "id": 67239,
     "exportedSymbols": {
       "JBOperatorData": [
-        66837
+        67238
       ]
     },
     "nodeType": "SourceUnit",
     "src": "32:429:111",
     "nodes": [
       {
-        "id": 66829,
+        "id": 67229,
         "nodeType": "PragmaDirective",
         "src": "32:23:111",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -31,19 +32,26 @@
         ]
       },
       {
-        "id": 66837,
+        "id": 67238,
         "nodeType": "StructDefinition",
         "src": "366:94:111",
+        "nodes": [],
         "canonicalName": "JBOperatorData",
+        "documentation": {
+          "id": 67230,
+          "nodeType": "StructuredDocumentation",
+          "src": "57:308:111",
+          "text": "@member operator The address of the operator.\n@member domain The domain within which the operator is being given permissions. A domain of 0 is a wildcard domain, which gives an operator access to all domains.\n@member permissionIndexes The indexes of the permissions the operator is being given."
+        },
         "members": [
           {
             "constant": false,
-            "id": 66831,
+            "id": 67232,
             "mutability": "mutable",
             "name": "operator",
             "nameLocation": "400:8:111",
             "nodeType": "VariableDeclaration",
-            "scope": 66837,
+            "scope": 67238,
             "src": "392:16:111",
             "stateVariable": false,
             "storageLocation": "default",
@@ -52,7 +60,7 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 66830,
+              "id": 67231,
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "392:7:111",
@@ -66,12 +74,12 @@
           },
           {
             "constant": false,
-            "id": 66833,
+            "id": 67234,
             "mutability": "mutable",
             "name": "domain",
             "nameLocation": "420:6:111",
             "nodeType": "VariableDeclaration",
-            "scope": 66837,
+            "scope": 67238,
             "src": "412:14:111",
             "stateVariable": false,
             "storageLocation": "default",
@@ -80,7 +88,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 66832,
+              "id": 67233,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "412:7:111",
@@ -93,12 +101,12 @@
           },
           {
             "constant": false,
-            "id": 66836,
+            "id": 67237,
             "mutability": "mutable",
             "name": "permissionIndexes",
             "nameLocation": "440:17:111",
             "nodeType": "VariableDeclaration",
-            "scope": 66837,
+            "scope": 67238,
             "src": "430:27:111",
             "stateVariable": false,
             "storageLocation": "default",
@@ -108,7 +116,7 @@
             },
             "typeName": {
               "baseType": {
-                "id": 66834,
+                "id": 67235,
                 "name": "uint256",
                 "nodeType": "ElementaryTypeName",
                 "src": "430:7:111",
@@ -117,7 +125,7 @@
                   "typeString": "uint256"
                 }
               },
-              "id": 66835,
+              "id": 67236,
               "nodeType": "ArrayTypeName",
               "src": "430:9:111",
               "typeDescriptions": {
@@ -130,7 +138,7 @@
         ],
         "name": "JBOperatorData",
         "nameLocation": "373:14:111",
-        "scope": 66838,
+        "scope": 67239,
         "visibility": "public"
       }
     ],

@@ -2,7 +2,7 @@ import * as fs from 'fs';
 import * as hre from 'hardhat';
 import { deployRecordContract, getContractRecord, logger } from './lib/lib';
 
-const parentDir = '../dl-jbx3'; // NOTE: this depends on the local machine, relative to execution dir
+const parentDir = '../daolabs-contracts-membership'; // NOTE: this depends on the local machine, relative to execution dir
 
 async function main() {
     const deploymentLogPath = `./deployments/${hre.network.name}/nft-rewards.json`;
