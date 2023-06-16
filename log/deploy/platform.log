@@ -63,3 +63,16 @@ Reason: Already Verified
 2023-06-16T14:25:11.422Z|info|transaction hash 0xb0d0824b6f626779915e530d837152a2a07f83957d68625688e9f356f5177a1b, waiting for confirmation...
 2023-06-16T14:25:12.378Z|info|deployed to 0xC49F74af6840f55f1dcBf1D25235387F37590e10 in 0xb0d0824b6f626779915e530d837152a2a07f83957d68625688e9f356f5177a1b
 2023-06-16T14:25:12.384Z|info|deployment complete
+2023-06-16T17:19:04.455Z|info|verifying JBTiered721Delegate on mainnet at 0xc23601d0950631fe5776a934b4d4D586f4f618Ab with Etherscan
+2023-06-16T17:19:31.760Z|info|verification complete
+2023-06-16T17:19:31.767Z|info|verifying JB721GlobalGovernance on mainnet at 0x9F329C5fcd16256Ee5d783D6FeB88D817A69d558 with Etherscan
+2023-06-16T17:20:12.200Z|info|verification complete
+2023-06-16T17:20:12.206Z|info|verifying JB721TieredGovernance on mainnet at 0x386E6d326FFee631FcBB9083b5f6DbAd61131408 with Etherscan
+2023-06-16T17:21:01.776Z|info|verification complete
+2023-06-16T17:21:01.783Z|info|verifying JBTiered721DelegateStore on mainnet at 0xd34D6Ac2574572933201e249B349b19187C25658 with Etherscan
+2023-06-16T17:21:27.761Z|info|verification complete
+2023-06-16T17:21:27.767Z|info|verifying JBTiered721DelegateDeployer on mainnet at 0x90e08301673642f7C38F3182b57Bf75A7e26CfCB with Etherscan
+2023-06-16T17:22:07.646Z|info|verification complete
+2023-06-16T17:22:07.651Z|info|verifying JBTiered721DelegateProjectDeployer on mainnet at 0xC49F74af6840f55f1dcBf1D25235387F37590e10 with Etherscan
+2023-06-16T17:22:29.415Z|info|verification complete
+2023-06-16T17:22:29.420Z|info|verification complete

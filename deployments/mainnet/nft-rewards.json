@@ -1541,7 +1541,7 @@
                     "outputs": []
                 }
             ],
-            "verified": false,
+            "verified": true,
             "type": "JBTiered721Delegate"
         },
         "JB721GlobalGovernance": {
@@ -3228,7 +3228,7 @@
                     "outputs": []
                 }
             ],
-            "verified": false,
+            "verified": true,
             "type": "JB721GlobalGovernance"
         },
         "JB721TieredGovernance": {
@@ -5013,7 +5013,7 @@
                     "outputs": []
                 }
             ],
-            "verified": false,
+            "verified": true,
             "type": "JB721TieredGovernance"
         },
         "JBTiered721DelegateStore": {
@@ -6075,7 +6075,7 @@
                     ]
                 }
             ],
-            "verified": false,
+            "verified": true,
             "type": "JBTiered721DelegateStore"
         },
         "JBTiered721DelegateDeployer": {
@@ -6321,7 +6321,7 @@
                     ]
                 }
             ],
-            "verified": false,
+            "verified": true,
             "type": "JBTiered721DelegateDeployer"
         },
         "JBTiered721DelegateProjectDeployer": {
@@ -7449,7 +7449,7 @@
                     ]
                 }
             ],
-            "verified": false,
+            "verified": true,
             "type": "JBTiered721DelegateProjectDeployer"
         }
     },
