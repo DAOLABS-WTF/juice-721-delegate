@@ -138,7 +138,7 @@ export function getPlatformConstant(valueName: string, defaultValue?: any, logPa
 export async function verifyContract(contractName: string, contractAddress: string, constructorArgs: any[]): Promise<boolean> {
     try {
         logger.info(`verifying ${contractName} on ${hre.network.name} at ${contractAddress} with Etherscan`);
-        await hre.run('verify:verify', { address: contractAddress, constructorArguments: constructorArgs });
+        await hre.run('verify:verify', { address: contractAddress, constructorArguments: constructorArgs, noCompile: true });
         logger.info('verification complete');
 
         return true;
